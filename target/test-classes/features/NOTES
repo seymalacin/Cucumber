@@ -7,6 +7,7 @@
 -Cucumber feature klasoru
     Tum feature file lar bu klasore gider
     Tum test caseler gherken dilinde bu klasorde yazilir
+
 -----------19 Subat 2023---------------------------
 1. Feature file olustur: ilkfeaturefile.feature
 Feature: ilk feature file
@@ -14,8 +15,11 @@ Feature: ilk feature file
     Given kullanici google gider
     When kullanici iphone için arama yapar
     Then sonuclarda iphone oldugunu dogrular
+
 2. Runner classini run et
+
 3. Console dan missing step definitions lari kopyala
+
 4. stepdefinitions klasorunde GoggleStepDefinitions class i olustur ve oraya yapistir
     @Given("kullanici google gider")
     public void kullanici_google_gider() {
@@ -26,6 +30,7 @@ Feature: ilk feature file
     @Then("sonuclarda iphone oldugunu dogrular")
     public void sonuclarda_iphone_oldugunu_dogrular() {
     }
+
 5. Step definitionslara gerekli java kodlarini yaz
     @Given("kullanici google gider")
     public void kullanici_google_gider() {

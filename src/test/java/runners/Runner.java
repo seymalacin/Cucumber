@@ -15,7 +15,7 @@ import org.junit.runner.RunWith;
        monochrome=true,//RAPORLARIN KONSOLDA OKUNAKLI CIKMASI İÇİN
 
         features = "./src/test/resources/features",//features folder path
-        glue = "stepdefinitions",   //stepdefinitions path
+        glue = {"stepdefinitions","hooks"},   //stepdefinitions path
         tags = "@data_tables",
         dryRun =false
 

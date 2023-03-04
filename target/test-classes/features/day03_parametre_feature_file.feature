@@ -32,5 +32,5 @@ Feature: arama_feature
 
 
 
-#  "VERİ"  -> feature file i parametrize etmek için kullanılır
+#  "VERİ"  -> feature file i parametrize etmek için kullanılır hart codingden dinamik hale geliyo
 

@@ -1,3 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="0.104" tests="0" skipped="0" failures="0" errors="0">
+<testsuite name="Cucumber" time="47.268" tests="2" skipped="0" failures="1" errors="0">
+<testcase classname="hooks_test" name="TC01_google_iphone_arama" time="25.022">
+<system-out><![CDATA[
+Given kullanici google gider................................................passed
+When kullanici "iphone" için arama yapar....................................passed
+Then sonuclarin "iphone" icerdigini dogrula.................................passed
+Then close the application..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="hooks_test" name="TC02_google_tesla_arama" time="21.548">
+<failure/>
+<system-out><![CDATA[
+Given kullanici google gider................................................passed
+When kullanici "tesla" için arama yapar.....................................passed
+Then sonuclarin "tesla" icerdigini dogrula..................................passed
+Then ekran goruntusu al.....................................................undefined
+Then close the application..................................................skipped
+]]></system-out>
+</testcase>
 </testsuite>
